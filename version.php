@@ -12,4 +12,4 @@ $plugin->requires  = 2012112900;        // Requires this Moodle version
 $plugin->component = 'local_jquery';
 
 global $PAGE;
-$PAGE->requires->js('/local/jquery/jquery-1.8.3.min.js');
+$PAGE->requires->js('/local/jquery/jquery-1.8.3.min.js', true);
